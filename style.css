@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero .box{
+    background: white;
+    border-radius: 10px;
+    margin: 20px;
+    width: 25vw;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.hero .box:hover{
+    transform: rotate(3deg);
+}
+
+.hero .main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
